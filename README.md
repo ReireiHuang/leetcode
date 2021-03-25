@@ -1,2 +1,2 @@
-# leetcode
-for leetcode solution
+# For leetcode solution
+Language:C#
