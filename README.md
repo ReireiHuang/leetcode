@@ -1,2 +1,2 @@
-# For leetcode solution
+#Leetcode solution
 Language:C#
