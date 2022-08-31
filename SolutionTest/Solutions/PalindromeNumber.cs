@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Leetcode
+namespace Solutions
 {
     public class PalindromeNumber
     {

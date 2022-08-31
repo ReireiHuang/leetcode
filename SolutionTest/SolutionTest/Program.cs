@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using Leetcode;
+using Solutions;
 using LeetCode.Common;
-int input = (int)LeetCodeSolutions.AddTwoNumber;
+int input = (int)LeetCodeSolutions.StringToInteger;
 
 switch (input)
 {
@@ -16,6 +16,10 @@ switch (input)
         ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
         Console.WriteLine(s1.AddTwoNumbers(l1,l2).ShowNode());
         break;
+    case (int)LeetCodeSolutions.StringToInteger:
+        StringToInteger s2 = new StringToInteger();
+        Console.WriteLine(s2.MyAtoi("+"));
+        break;
     default:
         break;
 }
@@ -23,5 +27,7 @@ switch (input)
 enum LeetCodeSolutions
 {
     PalindromeNumber,
-    AddTwoNumber
+    AddTwoNumber,
+    StringToInteger
+    
 }
